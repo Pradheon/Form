@@ -1,0 +1,123 @@
+BODY {
+  width: 100%;
+  background-image: url("nightwalk.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #ffd4d4;
+  color: #444;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.6em;
+
+}
+
+DT {
+  font-weight: bold;
+  margin-top: .33em;
+  margin-left: 2.5em;
+}
+
+H2 {
+  color: #000;
+  margin-left: 0em;
+}
+
+H3 {
+  color: #000;
+  margin-left: 1em;
+}
+
+p {
+  margin-left: 2.5em;
+}
+
+textarea {
+  border: solid;
+  resize: none;
+}
+
+.banner-divider {
+  position: relative;
+  background: #900;
+  height: 40px;
+}
+
+.content {
+  width: 960px;
+  margin: 0px auto;
+  box-sizing: border-box;
+  background: #fff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, .3);
+}
+
+.inner-content {
+  padding: 0px 20px 40px 20px;
+}
+
+.editsection {
+  display: none;
+}
+
+.blink-image {
+    -moz-animation: blink normal 2s infinite ease-in-out; /* Firefox */
+    -webkit-animation: blink normal 2s infinite ease-in-out; /* Webkit */
+    -ms-animation: blink normal 2s infinite ease-in-out; /* IE */
+    animation: blink normal 2s infinite ease-in-out; /* Opera and prob css3 final iteration */
+    width: 100%;
+    height: auto;
+}
+
+#feedback {
+  margin-top: auto;
+  font-size: 0.8rem;
+  color: #f00
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0.2;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0.2;
+    }
+    100% {
+        opacity:1;
+    }
+}
+/* IE */
+@-ms-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0.2;
+    }
+    100% {
+        opacity:1;
+    }
+}
+/* Opera and prob css3 final iteration */
+@keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0.2;
+    }
+    100% {
+        opacity:1;
+    }
+}
